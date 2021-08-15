@@ -1,0 +1,257 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Teko:wght@500;600;700&display=swap');
+
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+body{
+	font-family: 'Teko', sans-serif;  
+	background: #0B0A0A;
+}
+h1,h2,h3,h4,h5{
+	font-family: 'Roboto', sans-serif;
+	
+}
+.clear{
+	clear:both;
+}
+.wapper{
+	width: 1200px;
+/*	height: 1000px;*/
+	background-color:#FFFFFF;
+	margin: 0 auto;
+}
+.container{
+	width: 100%;
+	margin: 0 auto;
+	
+}
+.logo{
+	width: 20%;
+	height: 70px;
+	background-color: #1F1F1F;
+	float: left;
+	text-align: center;
+	
+}
+.logo img{
+	width: 29%;
+	
+}
+.nav-banner{
+	width: 80%;
+	height: 70px;
+	background: #1F1F1F;
+	float: right;
+}
+.nav-banner li a {
+	text-decoration: none;
+	color: aliceblue;
+}
+.nav-banner li{
+	display: inline-block;
+	margin: 0 30px;
+	padding-top: 10px;
+	line-height: 50px;
+}
+.nav-banner ul {
+	list-style: none;
+}
+.nav-banner a:hover{
+	color: darkred;
+}
+.Main video{
+	width:100%;
+}
+
+.Main img.tocchien{
+	
+  position: absolute;
+  left: 30%;
+  top: 150px;
+	width: 400px;
+	
+}
+.Main img.googleplay{
+	 position: absolute;
+  left: 30%;
+  top: 450px;
+	width: 150px;
+}
+.Main img.applstore{
+	position: absolute;
+  left: 50%;
+  top: 450px;
+	width: 150px;
+	
+}
+.Main h2.bb{
+	
+	margin: 90px ;
+	font-size: 35px;
+	font-style: italic;
+}
+.Main span{
+	float: right;
+	font-size: 20px;
+	margin: 20px -60px;
+	color: blue
+}
+
+.flex-container{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 100px;
+}
+.flex-container > img{
+	width: 350px;
+	height: 200px;
+  margin-top: -80px;
+  text-align: center;
+  line-height: 100%;
+}	
+.welcome{
+	
+	width: 100%;
+	height: 800px;
+	background: url("hinhnen1.svg");
+	background-size: cover;
+}
+.left{
+	width: 40%;
+	height: 600px;
+/*	background: #841D1E;*/
+	float: left;
+	margin: 100px 0 0 50px
+		
+}
+.left h2.aa{
+	font-style: italic;
+	font-size: 70px;
+	color: aliceblue;
+}
+
+.left h2.cc{
+	text-align: center;
+	margin: 40px 0 15px;
+	font-style: italic;
+}
+.right{
+	width: 50%;
+	height: 600px;
+	
+	float: right;
+	margin: 100px 30px 0 8px;
+}
+.right video{
+	width: 100%;
+	height: 600px;
+}
+.theworld{
+	width: 100%;
+	height: 800px;
+	background:url("hinhnen2.svg");
+	background-size: cover;
+/*	margin-top:300px;*/
+}
+
+.left1{
+	width: 40%;
+	height: 600px;
+/*	background: #841D1E;*/
+	float: left;
+	margin: 100px 0 0 50px
+		
+}
+.left1 img{
+	margin: 0 70px;
+	height: 600px;
+}
+.right1{
+	width: 40%;
+	height: 600px;
+/*	background: #841D1E;*/
+	float: right;
+	margin: 100px 50px 0 50px;
+}
+.right1 h1{
+	font-size: 90px;
+	font-style: oblique;
+	text-align: center;
+	margin: 40px 30px 0 8px;
+}
+.right1 p.mm{
+	text-align: center;
+	font-size: 25px;
+	margin: 30px 30px 0 8px;
+}
+	
+
+.Footer{
+	width: 100%;
+	height: 200px;
+	
+	padding-top: 35px;
+}
+.Picture img.aa5{
+	width: 350px;
+	height: 200px;
+	margin-top: 20px;
+}
+.Picture img.aa3{
+	width: 350px;
+	height: 200px;
+	margin-top: 20px;
+}
+.Picture img.aa4{
+	width: 350px;
+	height: 200px;
+	margin-top: 20px;
+}
+.Picture {
+	 display: flex;
+  flex-direction: row;
+padding:20px 0 px 0;
+	
+}
+.qq {
+	text-align: center;
+	font-size: 60px;
+	margin-top: 40px;
+}
+.Footer {
+	width: 100%;
+	height: 200px;
+	background: #1F1F1F;
+	margin-top: 40px;
+	text-align: center;
+}
+.Footer img{
+	width: 10%;
+}
+.socail img {
+	width: 30px;
+	height: 30px;
+}
+.socail{
+	display: flex;
+  justify-content: center;
+}
+.socail > img {
+  
+  width: 30px;
+  margin: 10px 20px 0 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.info{
+	width: 50%;
+	height: 90px;
+/*	background-color: antiquewhite;*/
+	text-align: center;
+	padding-top: 25px;
+	color: aliceblue
+}
